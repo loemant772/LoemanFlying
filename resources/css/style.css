@@ -91,3 +91,8 @@ body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.PGI_Content .Presentation {
+    display: flex;
+    justify-content: center;
+}
