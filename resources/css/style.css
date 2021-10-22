@@ -86,3 +86,8 @@ body {
 #two {
     padding-top: 40px;
 }
+
+.PGI_Content .Title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
