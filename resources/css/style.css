@@ -9,12 +9,17 @@ body {
     justify-content: space-between;
 }
 
-.NavBar .Title {
-    display: flex;
-    align-items: center;
+.NavBar .Title a {
     color: dimgrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.NavBar .Title a:hover {
+    color: black;
 }
 
 .NavBar li {
@@ -43,6 +48,7 @@ body {
 
 .Quotes h3 {
     text-align: center;
+    font-weight: 600;
     font-family: fantasy;
 }
 
@@ -50,13 +56,33 @@ body {
     padding-bottom: 50px;
 }
 
-.Contact {
-    color: darkslategray;
-    background-color: black;
+.Foot {
+    padding-right: 15px;
+    text-align: right;
+}
+
+.About_Content .Title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.About_Content .Intro {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+    font-weight: 550;
+}
+
+.About_Content .Photos {
     display: flex;
-    justify-content: space-around;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
+    justify-content: center;
+}
+
+#one {
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+#two {
+    padding-top: 40px;
 }
