@@ -96,3 +96,21 @@ body {
     display: flex;
     justify-content: center;
 }
+
+
+.PGI_Links li {
+    text-decoration: none;
+    display: flex;
+    display: inline-block;
+    padding: 30px;
+}
+.PGI_Links li a{
+    color: dimgrey;
+    text-decoration: none;
+}
+
+.PGI_Links li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
