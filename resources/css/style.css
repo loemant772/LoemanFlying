@@ -12,7 +12,7 @@ body {
 .NavBar .Title a {
     color: rgba(0, 0, 0, 0.842);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.25vw;
+    font-size: 1.4vw;
     padding-left: 25px;
     text-decoration: none;
     display: flex;
@@ -61,6 +61,7 @@ body {
 .Foot {
     padding-right: 15px;
     text-align: right;
+    bottom: 0px;
 }
 
 .About_Content .Title {
