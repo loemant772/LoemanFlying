@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: darkslategrey;
+    background-color: rgba(8, 82, 82, 0.685);
 }
 
 .NavBar {
@@ -10,7 +10,7 @@ body {
 }
 
 .NavBar .Title a {
-    color: dimgrey;
+    color: rgba(0, 0, 0, 0.842);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 25px;
     text-decoration: none;
@@ -19,7 +19,7 @@ body {
 }
 
 .NavBar .Title a:hover {
-    color: black;
+    color: rgb(173, 231, 224);
 }
 
 .NavBar li {
@@ -36,7 +36,7 @@ body {
 }
 
 .NavBar .NavBar_Items li a:hover {
-    color: dimgrey;
+    color: rgb(173, 231, 224);
 }
 
 .Images {
@@ -92,6 +92,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 .PGI_Content .Presentation {
     display: flex;
     justify-content: center;
@@ -105,7 +106,7 @@ body {
     padding: 30px;
 }
 .PGI_Links li a{
-    color: dimgrey;
+    color: rgba(200, 248, 240, 0.603);
     text-decoration: none;
 }
 
