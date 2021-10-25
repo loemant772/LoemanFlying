@@ -23,9 +23,19 @@
 
         <main>
             <div>
-                <h2 id="Fun_Fact">
-                </h2>
-                <button onclick="generateAviationFact();">Click Me</button>
+                <div class="Generate">
+                    <a href="./Aviation_Facts.html">Click here to generate new fact</a>
+                </div>
+                
+                <div class="Fun_Fact">
+                    <h2 id="Fact">
+                    </h2>
+                </div>
+
+                <script>
+                    document.getElementById("Fact").innerHTML = generateAviationFact();
+                </script>
+
             </div>
         </main>
 
