@@ -69,11 +69,17 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.About_Content .Intro {
+.About_Content .part_1 {
+    padding-top: 20px;
+}
+
+.About_Content .part_1, .About_Content .part_2 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-bottom: 30px;
     font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .About_Content .Photos {
