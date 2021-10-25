@@ -90,15 +90,11 @@ body {
 .About_Content .Photos {
     display: flex;
     justify-content: center;
-}
-
-#one {
-    padding-right: 30px;
-    padding-bottom: 40px;
+    max-width: 33%;
 }
 
 #two {
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 .PGI_Content .Title {
