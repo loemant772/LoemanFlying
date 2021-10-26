@@ -1,44 +1,42 @@
 body {
-    display: flex;
-    flex-direction: column;
     background-color: rgba(8, 82, 82, 0.685);
 }
 
 .NavBar {
     display: flex;
-    justify-content: space-between;
 }
 
-.NavBar .Title a {
-    color: rgba(0, 0, 0, 0.842);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4vw;
-    padding-left: 25px;
+.Title a {
+    display: flex;
     text-decoration: none;
-    display: flex;
-    align-items: flex-start;
-}
-
-.NavBar .Title a:hover {
-    color: rgb(173, 231, 224);
-}
-
-.NavBar li {
-    display: flex;
-    display: inline-block;
-    padding: 15px;
-}
-
-.NavBar .NavBar_Items li a {
     color: black;
-    font-size: smaller;
-    font-size: 1vw;
+    padding-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
 }
 
-.NavBar .NavBar_Items li a:hover {
+.Title a:hover {
     color: rgb(173, 231, 224);
+}
+
+.Nav_Links li a:hover{
+    color: rgb(173, 231, 224);
+}
+
+.Nav_Links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+.Nav_Links li a {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: smaller;
 }
 
 .Images {
@@ -143,4 +141,42 @@ body {
 
 .Generate a:hover {
     color: rgb(173, 231, 224);
+}
+
+@media screen and (max-width: 768px) {
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .hamburger {
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+    
+    .Nav_Links {
+        position: fixed;
+        background: rgba(8, 95, 82, 0.7);
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -10%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+    }
+
+    .Nav_Links.open {
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);   
+    }
 }
