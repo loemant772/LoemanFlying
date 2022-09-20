@@ -10,8 +10,10 @@ body {
     display: flex;
     text-decoration: none;
     color: black;
-    padding-left: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 60px;
+    font-family: 'Libre Baskerville', serif;
+    transition: all 0.3s ease-in;
+    font-size: 30px;
 }
 
 .Title a:hover {
@@ -28,20 +30,20 @@ body {
     width: 50%;
     height: 100%;
     justify-content: space-around;
-    align-items: center;
     margin-left: auto;
 }
 
 .Nav_Links li a {
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Libre Baskerville', serif;
     text-decoration: none;
     font-size: smaller;
+    transition: all 0.2s ease-in;
 }
 
 .Images {
-    padding-top: 25px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
 }
@@ -54,7 +56,7 @@ body {
 .Quotes h3 {
     text-align: center;
     font-weight: 600;
-    font-family: fantasy;
+    font-family: 'Playfair Display', serif;
 }
 
 #Quote2 {
@@ -116,6 +118,7 @@ body {
 .PGI_Links li a{
     color: rgba(200, 248, 240, 0.603);
     text-decoration: none;
+    transition: all 0.2s ease-in;
 }
 
 .PGI_Links li a:hover {
@@ -141,6 +144,7 @@ body {
 
 .Generate a:hover {
     color: rgb(173, 231, 224);
+    cursor: pointer;
 }
 
 .Fact_Page {
@@ -179,12 +183,18 @@ body {
         transition: all 1s ease-out;
     }
 
+    .Nav_Links li {
+        display: flex;
+        justify-content: center;
+    }
+
     .Nav_Links.open {
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%);   
     }
 
     .Title a {
-        font-size: 11px;
+        padding-left: 5px;
+        font-size: 15px;
     }
 }

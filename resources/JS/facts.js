@@ -22,9 +22,8 @@ let facts =
 "The amount of fuel that goes into a Boeing 747 could fuel 1,400 minivans!",
 "In a survey 67% percent of pilots admitted that they've 'at least once' fallen asleep accidentally while flying."]
 
-let selNumber = Math.floor(Math.random() * 21);
-let funFact = facts[selNumber];
-
 const generateAviationFact = () => {
+    let selNumber = Math.floor(Math.random() * 21);
+    let funFact = facts[selNumber];
     return funFact;
 };
